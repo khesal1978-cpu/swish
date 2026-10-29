@@ -1,4 +1,4 @@
-import app from './index.js';
+import app from './app.js';
 import { closeDatabase, connectedApp } from './connection.js';
 
 try {

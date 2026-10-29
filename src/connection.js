@@ -1,5 +1,5 @@
 import { MongoClient } from 'mongodb';
-import { createApp } from './app.js';
+import { createApp } from './account-app.js';
 import { mongoStore } from './mongo-store.js';
 
 let connection;

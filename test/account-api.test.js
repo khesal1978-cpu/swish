@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import { once } from 'node:events';
 import test from 'node:test';
-import { createApp } from '../src/app.js';
+import { createApp } from '../src/account-app.js';
 import { tokenDigest } from '../src/security.js';
 
 function testStore() {
